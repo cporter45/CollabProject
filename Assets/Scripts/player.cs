@@ -21,5 +21,15 @@ public class player : MonoBehaviour
         float moveVertical = Input.GetAxis("Vertical");
 
         rb.velocity = new Vector2(moveHorizontal * speed, moveVertical * speed);
+
+        if (Input.GetKeyDown("space"))
+        {
+
+        }
+    }
+
+    void DropBomb()
+    {
+
     }
 }
